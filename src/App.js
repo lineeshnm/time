@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import CountDownTimer from './components/CoundDownTimer'
+import DaysCountDown from './components/DaysCountDown'
+
 import "./App.css"
 
 const App = () => {
@@ -16,6 +19,8 @@ const App = () => {
   return (
     <div className="time">
     <h1>{ctime}</h1>
+    <CountDownTimer />
+    <DaysCountDown />
     </div>
   )
 }
